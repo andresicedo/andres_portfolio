@@ -1,136 +1,50 @@
-body {
-    background-color: rgb(228, 231, 231);
-    margin: 0px;
-    padding: 0px;
+.menu_bar {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
 }
 
-ul {
-    list-style: none;
-}
-
-.logo {
-    max-width: 250px;
-    height: auto;
-    display: flex;
-    margin-top: 40%;
-    margin-left: -15%;
-    box-shadow: 2px 2px 12px black;
-}
-
-a {
-    text-decoration: none;
-}
-
-section {
-    width: 100%;
-    height: 95vh;
-    /* background-image: url(/Portfolio\ Logo.png); */
-    background-repeat: no-repeat;
-    background-size: cover;
+/* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
     position: relative;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    background-color: rgb(210, 210, 211);
-    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-    padding: 0px 5%;
-}
-
-nav ul {
-    display: flex;
-}
-
-nav ul li a {
-    margin: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(66,66,66);
-    font-size: 15px;
-    font-weight: 700;
-}
-
-.logo {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    font-size: 22px;
-}
-
-.active {
-    font-weight: bold;
-    color: black;
-}
-
-.text-container p:nth-child(1){
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: rgb(66, 66, 66);
-    font-size: 22px;
-}
-
-.text-container p:nth-child(2) {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: rgb(66, 66, 66);
-    font-size: 60px;
-}
-
-.text-container p:nth-child(3) {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(66, 66, 66);
-    font-size: 30px;
-    line-height: 30px;
-}
-
-.text-container p {
-    line-height: 0px;
-    margin: 45px 0px 25px;
-}
-
-.text-container {
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
     position: absolute;
-    left: 13%;
-    top: 42%;
-    transform: translate(-13%, -42%);
-}
-
-.text-container button {
-    width: 130px;
-    height: 42px;
-    border: 2px solid cadetblue;
-    border-radius: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: -100px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
     font-weight: bold;
-    font-size: 14px;
-    outline: none;
-    margin: 0px 10px;
-}
-
-.hire-btn {
-    color: white;
-    background-color: rgb(66, 66, 66);
-}
-
-.down-cv {
-    color: white;
-    background-color: rgb(66, 66, 66);
-}
-
-button:active {
-    transform: scale(1.1);
-}
-
-.current_projects {
-    font-size: ;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 4%;
-    margin-right: -3%;
-}
-
-.current_projects ul {
-    justify-content: ;
-}
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: whtie; color: black;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: white;}
