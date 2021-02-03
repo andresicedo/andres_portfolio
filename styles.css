@@ -12,6 +12,7 @@
     padding: 16px;
     font-size: 16px;
     border: none;
+    margin-right: 30px;
   }
   
   /* The container <div> - needed to position the dropdown content */
@@ -48,3 +49,13 @@
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: white;}
+
+  body {
+    background: linear-gradient(
+      to right, 
+      rgb(240, 239, 239) 0%, 
+      rgb(240, 239, 239) 50%, 
+      rgb(66, 66, 66) 50%, 
+      black 100%
+    );
+  }
